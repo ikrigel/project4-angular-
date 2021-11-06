@@ -1,0 +1,826 @@
+{
+	"info": {
+		"_postman_id": "98d3f336-158d-408c-a6bd-1bd825229463",
+		"name": "Project 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get - http://localhost:3030/api/users/generalInformation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/generalInformation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"generalInformation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/products/categorys",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/categorys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"categorys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/users/verifytoken",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/verifytoken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"verifytoken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/carts/cart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2OTQ0Mn0.s9Q6oQVtX7VGcnJz7rYvDsNyzzBmTV1KmEgcv3LzqlI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/users/user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2OTQ0Mn0.s9Q6oQVtX7VGcnJz7rYvDsNyzzBmTV1KmEgcv3LzqlI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/carts/items",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA4NzcyN30.FXNv53acAl-M-HDMVvSrP-BxBWi1hKONSwyGP8InPd0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cart_id\":23\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put - http://localhost:3030/api/carts/changequantity",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA4NzcyN30.FXNv53acAl-M-HDMVvSrP-BxBWi1hKONSwyGP8InPd0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cart_item_id\": 57,\r\n    \"quantity\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/changequantity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"changequantity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/users/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA4NzcyN30.FXNv53acAl-M-HDMVvSrP-BxBWi1hKONSwyGP8InPd0",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"mail\": \"a@a.a\",\r\n \"password\": \"123456\",\r\n \"keepme\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/users/generalInformation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA4NzcyN30.FXNv53acAl-M-HDMVvSrP-BxBWi1hKONSwyGP8InPd0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"mail\": \"a@a.a\",\r\n \"password\": \"123456\",\r\n \"keepme\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/generalInformation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"generalInformation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/products/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category_id\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/users/verifidmail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/verifidmail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"verifidmail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/users/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": 992233444,\r\n  \"email\": \"polo1@polo1.com\",\r\n  \"password\": \"123456\",\r\n  \"confirmPassword\":\"123456\",\r\n  \"city\": \"ramat-zvi\",\r\n  \"adress\": \"polo 11\",\r\n  \"first_name\": \"polo1\",\r\n  \"last_name\": \"polo12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/users/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/carts/addcart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": 992233444\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/addcart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"addcart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/carts/addcartitem",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"product_id\": 42,\r\n\"quantity\": 1,\r\n\"cart_id\": 24 \r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/addcartitem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"addcartitem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/carts/deleteitem",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"cart_item_id\":56\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/deleteitem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"deleteitem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/carts/deletecart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"cart_id\":24\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/deletecart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"deletecart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/products/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"searchString\" : \"ba\"\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/carts/addorder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"received_city\": \"ramat-zvi\",\r\n  \"received_adress\": \"polo 1\",\r\n  \"received_date\": \"2021-10-26\",\r\n  \"payment_number\": \"1111111111111111\",\r\n  \"user_id\": 112233444,\r\n  \"cart_id\": 24,\r\n  \"total_price\": 3.00\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/addorder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"addorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get - http://localhost:3030/api/carts/checkOrderDateAvailaility",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"cart_id\": 23,\r\n\"user_id\": 123456777,\r\n\"cart_date\": \"2021-10-26T12:52:26.000Z\"\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/carts/checkOrderDateAvailaility",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"carts",
+						"checkOrderDateAvailaility"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/products/upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYUBhLmEiLCJhZG1pbiI6MCwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3NzcsImlhdCI6MTYzNTA2NDkyMn0.oLzsAdR4m5SSq2N8frBhEI142dyWA3-bm9gJMZ1HMLI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/me/Downloads/fruits/Watermelon.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/products/modifyproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYkBiLmIiLCJhZG1pbiI6MSwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3ODgsImlhdCI6MTYzNTEzOTc1MH0.rRZATT70lSQ9wst0GG_0xXxKRMcSQ7oEI8b9t92FfnE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product_name\": \"Banana2\",\r\n    \"category_id\": \"2\",\r\n    \"price\": 19.99,\r\n    \"img\": \"img-Banana.jpg\",\r\n    \"product_id\": 49\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/modifyproduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"modifyproduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post - http://localhost:3030/api/products/addproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiYkBiLmIiLCJhZG1pbiI6MSwiZmlyc3RfbmFtZSI6ImlnYWwiLCJsYXN0X25hbWUiOiJrcmlnZWwiLCJ1c2VyX2lkIjoxMjM0NTY3ODgsImlhdCI6MTYzNTEzOTc1MH0.rRZATT70lSQ9wst0GG_0xXxKRMcSQ7oEI8b9t92FfnE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product_name\": \"Banana3\",\r\n    \"category_id\": \"2\",\r\n    \"price\": 6.66,\r\n    \"img\": \"img-Banana.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/products/addproduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"products",
+						"addproduct"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
