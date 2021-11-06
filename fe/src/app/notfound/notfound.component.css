@@ -1,0 +1,38 @@
+#page404 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url("./imgs/grocery-shopping.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+#page404 div {
+  padding: 50px 0;
+  width: 40%;
+  height: 70%;
+  background-color: rgba(202, 31, 31, 0.418);
+  position: relative;
+}
+#page404 h1 {
+  font-size: 90px;
+}
+#page404 h3 {
+  font-size: 40px;
+}
+#page404 a {
+  color: rgb(28, 40, 68);
+}
+#page404 div iframe {
+  width: 96%;
+  position: relative;
+}
+a{
+    background-color: rgba(255, 255, 255, 0.192);
+    font-weight: bolder;
+}

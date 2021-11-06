@@ -1,0 +1,33 @@
+#homeInfo{
+    text-align: center;
+}
+#homeInfo p{
+    color: white;
+    font-size: 18px;
+    
+}
+.displayCount{
+    display: flex;
+    justify-content: center;
+}
+.numDisplay{
+    width: 35px;
+    height: 45px;
+    background: linear-gradient(45deg, rgba(17,54,217,1) 0%, rgba(9,121,18,1) 35%, rgba(255,0,206,1) 100%);
+    color: rgb(86, 235, 17);
+    text-align: center;
+    padding-top: 12px;
+    font-size: 30px;
+    margin: 2px;
+    border-radius: 4px;
+    border: 3px rgb(49, 48, 34) solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#notif{
+    background-color: rgba(32, 211, 32, 0.8);
+    margin: 0 20px;
+    padding: 15px;
+    border: 2px white solid;
+    border-radius: 50px 50px 50px 50px;
+}

@@ -1,0 +1,67 @@
+#btnShop{
+    width: fit-content;
+    text-align: center;
+    color: white;
+    height: 60px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+}
+.notConnectedBtn:hover{
+    border: 3px yellow solid;
+}
+
+.notConnectedBtn{
+    background-color: lightblue;
+    
+}
+.connectedBtn{
+    background-color: lightblue;
+}
+.connectedBtn:hover{
+    background-color: blue;
+    cursor: pointer;
+    border: 3px yellow solid;
+}
+#displayError{
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 47, 47);
+    padding-top: 10px;
+}
+#loginform{
+    border: 2px white solid;
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(38, 76, 94, 0.8);
+}
+#loginform p{
+    font-size: 20px;
+}
+
+#loginbtn{
+    width: 150px;
+    height: 25px;
+    background: linear-gradient(45deg, rgba(17,54,217,1) 0%, rgba(9,121,18,1) 35%, rgba(255,0,206,1) 100%);
+    color:white;
+}
+#loginbtn:hover{
+    background-color: linen;
+    border: 3px yellow solid;
+    border-radius: 50px 50px 50px 50px;
+}
+#linkSignup{
+    color: white;
+}
+#password{
+    background-color: linen;
+}
+#email{
+    background-color: linen;
+}
